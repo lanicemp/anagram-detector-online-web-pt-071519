@@ -1,4 +1,3 @@
-# Your code goes here!
 require "pry"
 
 class Anagram 
@@ -20,7 +19,4 @@ class Anagram
     end 
    matches 
   end 
-    
-
-
 end 
