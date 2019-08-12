@@ -5,6 +5,7 @@ class Anagram
   
   def initialize(word)
     @word = word 
+    binding.pry 
   end 
   
   def match(array)
@@ -12,7 +13,7 @@ class Anagram
     array.each do |word|
       if word.split('').sort == self.word.split('').sort
        matches << word 
-       binding.pry
+       #binding.pry
      #matches << word if word.split('').sort == self.word.split('').sort (this code also works and is a simpler refactored method )
       
       end 
