@@ -5,7 +5,7 @@ class Anagram
   
   def initialize(name)
     @name = name  
-    binding.pry 
+    #binding.pry 
   end 
   
   def match(array)
