@@ -1,7 +1,8 @@
 require "pry"
 
 class Anagram 
-  attr_accessor :name 
+  attr_ac
+  cessor :name 
   
   def initialize(name)
     @name = name  
