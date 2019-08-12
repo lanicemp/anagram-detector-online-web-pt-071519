@@ -2,8 +2,8 @@ require "pry"
 
 class Anagram 
   attr_accessor :word 
-  
-  def initialize(word)
+  def initi 
+ alize(word)
     @word = word 
     binding.pry 
   end 
